@@ -1,0 +1,62 @@
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui o padding e a borda no cálculo da largura e altura */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do corpo */
+    background-color: #f4f4f4; /* Cor de fundo do corpo */
+    line-height: 1.6; /* Aumenta a legibilidade com espaçamento de linha */
+}
+
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 1rem; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+.menu {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove o preenchimento da lista */
+}
+
+.menu li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+.menu a {
+    color: white; /* Cor dos links no menu */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+section {
+    padding: 2rem; /* Espaçamento interno das seções */
+    margin: 1rem 0; /* Margem entre as seções */
+    background-color: white; /* Cor de fundo das seções */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.project-list {
+    flex-direction:column;
+    display: flex; /* Ativa Flexbox para a lista de projetos */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a linha seguinte */
+    justify-content: space-around; /* Distribui espaço entre os itens */
+}
+
+.project-item {
+    width: 30%; /* Largura dos itens de projeto */
+    margin: 1rem; /* Margem ao redor de cada item de projeto */
+    padding: 1rem; /* Espaçamento interno dos itens de projeto */
+    background-color: #e4e4e4; /* Cor de fundo dos itens de projeto */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+footer {
+    text-align: center; /* Alinha o texto do rodapé ao centro */
+    padding: 1rem; /* Espaçamento interno do rodapé */
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+}
